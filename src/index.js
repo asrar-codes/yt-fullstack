@@ -4,7 +4,7 @@ import connectDb from "./db/connect.js";
 import { app } from "./app.js";
 
 dontev.config({
-  path: "./env",
+  path: "./.env",
 });
 
 const port = process.env.PORT || 8000;
