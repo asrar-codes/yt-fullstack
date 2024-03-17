@@ -18,5 +18,10 @@ class ApiError extends Error {
     }
   }
 }
-
+// const errorHandler = (err, req, res, next) => {
+//   if (err instanceof ApiError) {
+//     return next(err);
+//   }
+//   return next("This is custom err handling");
+// };
 export { ApiError };
